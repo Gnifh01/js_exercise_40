@@ -26,7 +26,7 @@ class Person {
   }
 
   set ages(value) {
-    this.age = value;
+    return (this.age = value);
   }
 
   get fullName() {
